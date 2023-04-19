@@ -35,4 +35,4 @@ else:
         largest = num3
     
 st.header('The largest number is')
-st.write( largest)
+st.header( largest)
