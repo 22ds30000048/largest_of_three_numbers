@@ -34,5 +34,5 @@ elif (num2 >= num1) and (num2 >= num3):
 else:
         largest = num3
     
-
-st.write("The largest number is", largest)
+st.header('The largest number is')
+st.write( largest)
