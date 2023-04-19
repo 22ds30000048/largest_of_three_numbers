@@ -10,10 +10,10 @@ Original file is located at
 #pip install streamlit#
 
 import streamlit as st
-import pandas as pd
+#import pandas as pd
 #from sklearn import datasets
 #from sklearn.ensemble import RandomForestClassifier
-import pickle
+#import pickle
 
 st.write("""
 # LARGEST NUMBER AMONG THREE
@@ -23,7 +23,7 @@ st.header('User Input Parameters')
 
 
 
-num1 = float(input("Enter first number: "))
+num1 = float(st.input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 num3 = float(input("Enter third number: "))
 
