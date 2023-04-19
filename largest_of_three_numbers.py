@@ -25,7 +25,7 @@ st.header('User Input Parameters')
 
 num1 = st.number_input("Enter first number:",step=1)
 num2 = st.number_input("Enter second number:",step=1)
-num3 = st.number_input("Enter third number:",step=1))
+num3 = st.number_input("Enter third number:",step=1)
 
 if (num1 >= num2) and (num1 >= num3):
         largest = num1
