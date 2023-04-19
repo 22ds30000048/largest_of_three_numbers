@@ -23,7 +23,7 @@ st.header('User Input Parameters')
 
 
 
-num1 = float(st.input("Enter first number: "))
+num1 = st.number_input("Enter first number: ")
 num2 = float(input("Enter second number: "))
 num3 = float(input("Enter third number: "))
 
